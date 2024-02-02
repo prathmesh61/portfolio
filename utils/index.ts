@@ -30,7 +30,7 @@ export const services: TService[] = [
 export const navLink: TNavitem[] = [
   {
     name: "Home",
-    link: "#home",
+    link: "/",
   },
   {
     name: "Service",

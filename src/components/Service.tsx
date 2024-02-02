@@ -5,7 +5,10 @@ import { services } from "../../utils";
 
 const Service = () => {
   return (
-    <div className="h-screen w-full  flex flex-wrap justify-around items-center py-2 px-8 ">
+    <div
+      className="h-screen w-full  flex flex-wrap justify-around items-center py-2 px-8 "
+      id="service"
+    >
       <div className="flex flex-col gap-y-4">
         <h2 className="lg:text-4xl text-2xl bg-left p-2 text-center text-white">
           <b>Services </b>I Offer
