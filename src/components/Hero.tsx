@@ -5,7 +5,7 @@ import heroImg from "@/../public/asset/Coding-bro.png";
 
 const Hero = () => {
   return (
-    <div className="relative lg:h-screen h-full max-w-[1340px] m-auto flex flex-wrap justify-between items-center gap-10">
+    <div className="relative lg:h-screen h-full max-w-[1340px] m-auto flex flex-wrap justify-between items-center gap-10 ">
       <div className="flex items-start flex-col gap-y-4 max-w-[600px]">
         <h1 className=" lg:text-5xl text-4xl text-white">
           Hello,
@@ -21,6 +21,9 @@ const Hero = () => {
 
       <div className="react absolute lg:flex items-center top-[20%] hidden w-[80px] h-[40px]">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+      </div>
+      <div className="redux absolute top-[30%] left-[36%] w-[80px] h-[40px]">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
       </div>
       <div className="nodejs absolute top-[20%] right-[10%] w-[80px] h-[40px]">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
