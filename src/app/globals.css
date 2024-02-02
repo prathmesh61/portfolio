@@ -4,6 +4,11 @@
 @tailwind utilities;
 
 body {
-  background-color: #ffffff;
+  background-color: #04152d;
   font-family: "Europa Regular";
+}
+
+.bg-left {
+  /* background: linear-gradient(90deg, rgba(165, 215, 232, 0.42) -60.08%, rgba(255, 255, 255, 0) 66.02%); */
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
 }
