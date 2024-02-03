@@ -6,7 +6,7 @@ import { services } from "../../utils";
 const Service = () => {
   return (
     <div
-      className="h-screen w-full  flex flex-wrap justify-around items-center py-2 px-8 "
+      className="h-full w-full flex flex-wrap justify-around items-center p-4 mt-32"
       id="service"
     >
       <div className="flex flex-col gap-y-4">

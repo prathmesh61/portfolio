@@ -1,5 +1,5 @@
 import { Building, Clapperboard, FilePlus, ShieldEllipsis } from "lucide-react";
-import { TNavitem, TService } from "../types/type";
+import { TNavitem, TService, TSkill } from "../types/type";
 
 export const services: TService[] = [
   {
@@ -129,6 +129,86 @@ const projects = [
       "next-auth",
       "tailwindcss",
       "shadcn-ui",
+    ],
+  },
+];
+
+export const skillList: TSkill[] = [
+  {
+    frontend: [
+      {
+        name: "React Js",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      },
+      {
+        name: "Next Js",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg",
+      },
+      {
+        name: "CSS3",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      },
+      {
+        name: "HTML5",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      },
+      {
+        name: "Javascript",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      },
+      {
+        name: "TypeScript",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      },
+      {
+        name: "Redux",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+      },
+      {
+        name: "Figma",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      },
+      {
+        name: "Tailwind Css",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+      },
+      {
+        name: "Git",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      },
+    ],
+    backend: [
+      {
+        name: "Node Js",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg",
+      },
+      {
+        name: "Express JS",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+      },
+
+      {
+        name: "Nest Js",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg",
+      },
+      {
+        name: "PostgreSQL",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+      },
+      {
+        name: "Mongo DB",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      },
+      {
+        name: "GraphQL",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+      },
+    ],
+    testing: [
+      {
+        name: "PlayWright",
+        src: "https://miro.medium.com/v2/resize:fit:646/1*gMiUPuRGC36nxZHe2zthOg.png",
+      },
     ],
   },
 ];

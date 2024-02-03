@@ -9,6 +9,7 @@ const Navbar = () => {
         <div className="hidden lg:flex items-center gap-16">
           {navLink.map((link) => (
             <Link
+              key={link.name}
               href={link.link}
               className="font-light text-md text-white hover:underline"
             >
