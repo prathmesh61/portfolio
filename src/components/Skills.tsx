@@ -18,19 +18,23 @@ const Skills = () => {
             Front-End
           </h3>
           <div className="flex flex-wrap items-center justify-center gap-4">
-            {skillList.map((list) => (
-              <Skill list={list.frontend} />
-            ))}
+            {skillList.map((list) =>
+              list.frontend.map((skill) => (
+                <Skill skill={skill} key={skill.name} />
+              ))
+            )}
           </div>
         </div>
         <div className="flex flex-col items-start justify-start gap-8">
           <h3 className="font-bold text-2xl text-center bg-left p-3">
-            Backend-End
+            Back-End
           </h3>
           <div className="flex flex-wrap items-center justify-center gap-4">
-            {skillList.map((list) => (
-              <Skill list={list.backend} />
-            ))}
+            {skillList.map((list) =>
+              list.backend.map((skill) => (
+                <Skill skill={skill} key={skill.name} />
+              ))
+            )}
           </div>
         </div>
         <div className="flex flex-col items-start justify-start gap-8">
@@ -38,9 +42,11 @@ const Skills = () => {
             Testing
           </h3>
           <div className="flex flex-wrap items-center justify-center gap-4">
-            {skillList.map((list) => (
-              <Skill list={list.testing} />
-            ))}
+            {skillList.map((list) =>
+              list.testing.map((skill) => (
+                <Skill skill={skill} key={skill.name} />
+              ))
+            )}
           </div>
         </div>
       </div>

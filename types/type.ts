@@ -24,3 +24,13 @@ export type TSkill = {
     src: string;
   }[];
 };
+export type TProject = {
+  name: string;
+  image: string;
+  description: string;
+  links: {
+    name: string;
+    link: string;
+  }[];
+  languages: string[];
+};

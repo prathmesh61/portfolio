@@ -1,5 +1,5 @@
 import { Building, Clapperboard, FilePlus, ShieldEllipsis } from "lucide-react";
-import { TNavitem, TService, TSkill } from "../types/type";
+import { TNavitem, TProject, TService, TSkill } from "../types/type";
 
 export const services: TService[] = [
   {
@@ -50,7 +50,7 @@ export const navLink: TNavitem[] = [
   },
 ];
 
-const projects = [
+export const projects: TProject[] = [
   {
     name: "Coursify",
     image: "https://via.placeholder.com/640x360",
@@ -66,7 +66,7 @@ const projects = [
         link: "https://github.com/prathmesh61/coursify",
       },
     ],
-    stack: [
+    languages: [
       "Nextjs",
       "TypeScript",
       "mongodb",
@@ -92,7 +92,7 @@ const projects = [
         link: "https://github.com/prathmesh61/issue-tracker",
       },
     ],
-    stack: [
+    languages: [
       "nextjs",
       "TypeScript",
       "React-Hook-Form",
@@ -109,7 +109,7 @@ const projects = [
     name: "Booking website",
     image: "https://via.placeholder.com/640x360",
     description:
-      "Welcome to Next.js 13 Full Stack clone! We've crafted this platform using the latest technologies,such as Zod for schema validation, React Hook Form for streamlined form management, and Next.js for efficient server-side rendering,  our backend relies on MongoDB for secure and scalable data storage, while NextAuth handles authentication with ease. The integration of custom hooks enhances code reusability and maintainability, ",
+      "Airbnb Next.js 13 Full Stack clone! using the latest technologies,such as Zod for schema validation, React-Hook-Form for form management, and Next.js for server-side rendering, our backend relies on MongoDB, while NextAuth handles authentication.custom hooks enhances code reusability and maintainability, ",
     links: [
       {
         name: "Demo",
@@ -120,7 +120,7 @@ const projects = [
         link: "https://github.com/prathmesh61/fullstack-airbnb",
       },
     ],
-    stack: [
+    languages: [
       "nextjs",
       "typescript",
       "mongodb",

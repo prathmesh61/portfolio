@@ -13,7 +13,13 @@ const Service = () => {
         <h2 className="lg:text-4xl text-2xl bg-left p-2 text-center text-white">
           <b>Services </b>I Offer
         </h2>
-        <Image alt="serviceImg" src={serviceImg} width={600} height={200} />
+        <Image
+          alt="serviceImg"
+          src={serviceImg}
+          width={600}
+          height={200}
+          className="w-auto"
+        />
       </div>
       <div className="flex flex-col gap-8">
         {services.map((service) => (
