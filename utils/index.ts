@@ -1,5 +1,14 @@
-import { Building, Clapperboard, FilePlus, ShieldEllipsis } from "lucide-react";
-import { TNavitem, TProject, TService, TSkill } from "../types/type";
+import {
+  Building,
+  Clapperboard,
+  FilePlus,
+  ShieldEllipsis,
+  Linkedin,
+  Github,
+  GitCommitHorizontal,
+  Twitter,
+} from "lucide-react";
+import { TNavitem, TProject, TService, TSkill, TWork } from "../types/type";
 
 export const services: TService[] = [
   {
@@ -210,5 +219,54 @@ export const skillList: TSkill[] = [
         src: "https://miro.medium.com/v2/resize:fit:646/1*gMiUPuRGC36nxZHe2zthOg.png",
       },
     ],
+  },
+];
+
+export const works: TWork[] = [
+  {
+    name: "Tax Consulant website",
+    image: "https://via.placeholder.com/640x360",
+    description:
+      "website frontend build using Next.js and styled using Tailwind CSS & form handle by hooks for sending email we use Email.js service.",
+
+    languages: [
+      "nextjs",
+      "react",
+      "typescript",
+      "emailJS",
+      "hooks",
+      "react-hot-toast",
+      "tailwindcss",
+    ],
+  },
+  {
+    name: "React Admin Dashboard",
+    image: "https://via.placeholder.com/640x360",
+    description: "Responsive React Admin Panel UI Design",
+
+    languages: [
+      "nextjs",
+      "react",
+      "typescript",
+      "emailJS",
+      "hooks",
+      "react-hot-toast",
+      "tailwindcss",
+    ],
+  },
+];
+
+export const social = [
+  {
+    icon: Linkedin,
+    link: "https://www.linkedin.com/in/prathmesh-pol/",
+  },
+  {
+    icon: Github,
+    link: "https://github.com/prathmesh61",
+  },
+  {
+    icon: Twitter,
+    link: "https://twitter.com/PrathmeshPol14",
   },
 ];

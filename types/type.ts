@@ -34,3 +34,18 @@ export type TProject = {
   }[];
   languages: string[];
 };
+export type TWork = {
+  name: string;
+  image: string;
+  description: string;
+  links?: {
+    name: string;
+    link: string;
+  }[];
+  languages: string[];
+};
+
+export type TSocial = {
+  icon: LucideIcon;
+  link: string;
+}[];

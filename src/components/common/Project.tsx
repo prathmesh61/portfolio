@@ -1,9 +1,9 @@
 import React from "react";
-import { TProject } from "../../../types/type";
+import { TProject, TWork } from "../../../types/type";
 import Link from "next/link";
 
 type Props = {
-  project: TProject;
+  project: TProject | TWork;
 };
 
 const Project = ({ project }: Props) => {
@@ -12,15 +12,17 @@ const Project = ({ project }: Props) => {
       <div className="flex flex-col gap-2 ">
         <h2 className="font-extrabold text-xl">{project.name}</h2>
         <div className="flex gap-2">
-          {project.links.map((link) => (
-            <Link
-              href={link.link}
-              className="bg-[#740FF5] px-1"
-              key={link.name}
-            >
-              {link.name}
-            </Link>
-          ))}
+          {project.links &&
+            project.links.map((link) => (
+              <Link
+                href={link.link}
+                className="bg-[#740FF5] px-1"
+                key={link.name}
+                target="_blank"
+              >
+                {link.name}
+              </Link>
+            ))}
         </div>
         <p className="text-sm font-light max-w-[400px]">
           {project.description}
