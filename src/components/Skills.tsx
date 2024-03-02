@@ -4,7 +4,10 @@ import Skill from "./common/Skill";
 
 const Skills = () => {
   return (
-    <section className="max-w-[1340px] h-full m-auto p-4 flex flex-col justify-center items-center gap-10 mt-60 xl:mt-20">
+    <section
+      id="skills"
+      className="max-w-[1440px] h-full m-auto p-4 flex flex-col justify-center items-center gap-10 mt-60 xl:mt-32"
+    >
       <div className="flex flex-col items-center justify-center gap-2">
         <h1 className="font-extrabold text-6xl">Skills</h1>
         <p className="font-light text-xl">

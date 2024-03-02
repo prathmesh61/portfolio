@@ -38,7 +38,7 @@ const Project = ({ project }: Props) => {
       <img
         src={project.image}
         alt={project.name}
-        className="w-[640px] h-[290px] object-cover"
+        className="w-[440px] h-auto object-contain object-center"
       />
     </article>
   );

@@ -26,7 +26,7 @@ export const services: TService[] = [
   {
     name: "Web UI/UX Design",
     description:
-      "I have re-designed multiple landing pages and design whole startup landing page",
+      "I  re-designed multiple landing pages and design whole startup landing page",
     Icon: FilePlus,
   },
   {
@@ -61,68 +61,15 @@ export const navLink: TNavitem[] = [
 
 export const projects: TProject[] = [
   {
-    name: "Coursify",
-    image: "https://via.placeholder.com/640x360",
-    description:
-      "Course Selling Website Like Udemy Full Stack With Payment Gateway,state & user management using redux",
-    links: [
-      {
-        name: "Demo",
-        link: "https://github.com/prathmesh61/coursify",
-      },
-      {
-        name: "GitHub",
-        link: "https://github.com/prathmesh61/coursify",
-      },
-    ],
-    languages: [
-      "Nextjs",
-      "TypeScript",
-      "mongodb",
-      "axios",
-      "react-chartjs-2",
-      "tailwindcss",
-      "razorpay-payment",
-      "Redux-toolkit",
-    ],
-  },
-  {
-    name: "Issue Tracker",
-    image: "https://via.placeholder.com/640x360",
-    description:
-      "advanced issue tracker to streamline bug management effortlessly!",
-    links: [
-      {
-        name: "Demo",
-        link: "https://github.com/prathmesh61/issue-tracker",
-      },
-      {
-        name: "GitHub",
-        link: "https://github.com/prathmesh61/issue-tracker",
-      },
-    ],
-    languages: [
-      "nextjs",
-      "TypeScript",
-      "React-Hook-Form",
-      "PostgreSQL",
-      "Prisma",
-      "Node-cach",
-      "tailwindcss",
-      "Playwright",
-      "Zod",
-      "react-chartjs-2",
-    ],
-  },
-  {
     name: "Booking website",
-    image: "https://via.placeholder.com/640x360",
+    image:
+      "https://res.cloudinary.com/dpvjdarqx/image/upload/v1709202942/ew3ad2mflcy6ryddzv7o.png",
     description:
       "Airbnb Next.js 13 Full Stack clone! using the latest technologies,such as Zod for schema validation, React-Hook-Form for form management, and Next.js for server-side rendering, our backend relies on MongoDB, while NextAuth handles authentication.custom hooks enhances code reusability and maintainability, ",
     links: [
       {
         name: "Demo",
-        link: "https://github.com/prathmesh61/fullstack-airbnb",
+        link: "https://fullstack-airbnb-three.vercel.app/",
       },
       {
         name: "GitHub",
@@ -138,6 +85,63 @@ export const projects: TProject[] = [
       "next-auth",
       "tailwindcss",
       "shadcn-ui",
+    ],
+  },
+  {
+    name: "Coursify",
+    image:
+      "https://res.cloudinary.com/dpvjdarqx/image/upload/v1709379357/nanfrfmm37wlnioeerbq.png",
+    description:
+      "Course Selling Website Like Udemy Full Stack With Payment Gateway,state & user management using redux",
+    links: [
+      {
+        name: "Demo",
+        link: "https://coursify-tau.vercel.app/",
+      },
+      {
+        name: "GitHub",
+        link: "https://github.com/prathmesh61/coursify",
+      },
+    ],
+    languages: [
+      "Nextjs",
+      "TypeScript",
+      "mongodb",
+      "axios",
+      "react-chartjs-2",
+      "tailwindcss",
+      "razorpay-payment",
+      "Redux-toolkit",
+      "Playwright-test",
+    ],
+  },
+  {
+    name: "Issue Tracker",
+    image:
+      "https://res.cloudinary.com/dpvjdarqx/image/upload/v1709202940/mlxr9hvbjbviqz1tcj69.png",
+    description:
+      "advanced issue tracker to streamline bug management effortlessly!",
+    links: [
+      {
+        name: "Demo",
+        link: "https://issue-tracker-sand-rho.vercel.app/",
+      },
+      {
+        name: "GitHub",
+        link: "https://github.com/prathmesh61/issue-tracker",
+      },
+    ],
+    languages: [
+      "nextjs",
+      "TypeScript",
+      "React-Hook-Form",
+      "PostgreSQL",
+      "Prisma",
+      "Node-cach",
+      "tailwindcss",
+      "Playwright-test",
+      "Zod",
+      "react-chartjs-2",
     ],
   },
 ];
@@ -225,7 +229,8 @@ export const skillList: TSkill[] = [
 export const works: TWork[] = [
   {
     name: "Tax Consulant website",
-    image: "https://via.placeholder.com/640x360",
+    image:
+      "https://res.cloudinary.com/dpvjdarqx/image/upload/v1709202941/oi1yqxpbedlfmt7sqpgd.png",
     description:
       "website frontend build using Next.js and styled using Tailwind CSS & form handle by hooks for sending email we use Email.js service.",
 
@@ -241,7 +246,8 @@ export const works: TWork[] = [
   },
   {
     name: "React Admin Dashboard",
-    image: "https://via.placeholder.com/640x360",
+    image:
+      "https://res.cloudinary.com/dpvjdarqx/image/upload/v1709202948/gkwvmhcemi3q3man74gd.png",
     description: "Responsive React Admin Panel UI Design",
 
     languages: [

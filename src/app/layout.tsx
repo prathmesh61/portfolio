@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-
+import { Toaster } from "react-hot-toast";
 export const metadata: Metadata = {
   title: "Portfolio Prathmesh Pol",
   description:
@@ -20,7 +20,10 @@ export default function RootLayout({
           href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Toaster />
+      </body>
     </html>
   );
 }

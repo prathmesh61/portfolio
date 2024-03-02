@@ -6,12 +6,12 @@ import { services } from "../../utils";
 const Service = () => {
   return (
     <div
-      className="h-full w-full flex flex-wrap justify-around items-center p-4 mt-32"
+      className="h-full w-full flex flex-wrap justify-around items-center p-4 mt-60 xl:mt-32"
       id="service"
     >
       <div className="flex flex-col gap-y-4">
         <h2 className="lg:text-4xl text-2xl bg-left p-2 text-center text-white">
-          <b>Services </b>I Offer
+          <b>What can </b>I do!
         </h2>
         <Image
           alt="serviceImg"
