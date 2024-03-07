@@ -9,8 +9,8 @@ const Projects = () => {
       className="max-w-[1440px]  h-full m-auto p-4 flex flex-col justify-center items-center gap-10 mt-60 xl:mt-32"
     >
       <div className="flex flex-col items-center justify-center gap-2">
-        <h1 className="font-extrabold text-6xl">Projects</h1>
-        <p className="font-light text-xl">
+        <h1 className="font-extrabold text-5xl xl:text-6xl">Projects</h1>
+        <p className="font-light text-base xl:text-xl">
           I will let the work I've done speak for me - "Corrine Brown"
         </p>
       </div>

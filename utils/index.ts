@@ -183,7 +183,7 @@ export const skillList: TSkill[] = [
       },
       {
         name: "Tailwind Css",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg",
       },
       {
         name: "Git",
@@ -202,7 +202,7 @@ export const skillList: TSkill[] = [
 
       {
         name: "Nest Js",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg",
       },
       {
         name: "PostgreSQL",

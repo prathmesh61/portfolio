@@ -9,7 +9,7 @@ const Design = () => {
   return (
     <div className="max-w-[1440px] h-full m-auto p-4 flex flex-col justify-center items-center gap-10 mt-60 xl:mt-32">
       <div className="flex flex-col gap-y-2">
-        <h3 className="font-extrabold text-center text-5xl">
+        <h3 className="font-extrabold text-center text-xl xl:text-5xl">
           UI Design And Redesigns✨
         </h3>
         <p className="font-mono text-lg text-center">

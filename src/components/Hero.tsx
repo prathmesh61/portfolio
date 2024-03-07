@@ -25,17 +25,17 @@ const Hero = () => {
         blurDataURL="Hero Image"
       />
 
-      <div className="react absolute xl:block top-[25%]  xl:top-[20%]  w-[80px] h-[40px]">
+      <div className="react absolute xl:block top-[40%]  xl:top-[20%] w-[60px] h-[30px]  xl:w-[80px] xl:h-[40px]">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
       </div>
-      <div className="redux absolute xl:block top-[25%] left-[65%] xl:top-[30%] xl:left-[36%] w-[80px] h-[40px]">
+      <div className="redux absolute xl:block top-[40%] left-[65%] xl:top-[30%] xl:left-[36%] w-[60px] h-[30px]  xl:w-[80px] xl:h-[40px]">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
       </div>
-      <div className="nodejs absolute xl:block top-[95%] right-[10%] xl:top-[20%] xl:right-[10%] w-[80px] h-[40px]">
+      <div className="nodejs absolute xl:block top-[95%] right-[10%] xl:top-[20%] xl:right-[10%] w-[60px] h-[30px]  xl:w-[80px] xl:h-[40px]">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
       </div>
 
-      <div className="typescript absolute 2xl:block  bottom-[0%] left-[5%] 2xl:bottom-[25%] 2xl:left-[20%] w-[80px] h-[40px]">
+      <div className="typescript absolute 2xl:block  bottom-[0%] left-[5%] 2xl:bottom-[25%] 2xl:left-[20%] w-[60px] h-[30px]  xl:w-[80px] xl:h-[40px]">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
       </div>
     </div>

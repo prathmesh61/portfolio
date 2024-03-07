@@ -40,8 +40,8 @@ const Contact = (props: Props) => {
       className="max-w-[1440px] xl:border-t-2 xl:border-t-purple-500 h-full m-auto p-4 flex flex-wrap justify-center items-center gap-10 mt-60 xl:mt-32 mb-10"
     >
       <div className="flex flex-col items-start justify-center gap-y-3">
-        <h2 className="font-extrabold text-6xl">Contact ME</h2>
-        <h5 className="font-medium text-xl max-w-md">
+        <h2 className="font-extrabold text-5xl xl:text-6xl">Contact ME</h2>
+        <h5 className="font-medium text-base xl:text-xl max-w-md">
           Feel free to contact me for career prospects, business services, and
           other professional inquiries!
         </h5>
