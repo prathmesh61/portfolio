@@ -270,7 +270,8 @@ export const works: TWork[] = [
   },
   {
     name: "Seo Agency Website",
-    image: "/asset/rankz.png",
+    image:
+      "https://res.cloudinary.com/dpvjdarqx/image/upload/v1712736918/ht44plidwmeqrndulrix.png",
     description: "SEO & Digital Marketing Agency website Template",
 
     languages: [
