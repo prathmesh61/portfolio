@@ -189,6 +189,14 @@ export const skillList: TSkill[] = [
         name: "Git",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
       },
+      {
+        name: "Wordpress",
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/1024px-WordPress_blue_logo.svg.png",
+      },
+      {
+        name: "Shopify",
+        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS06iG2WbdpRIDZhd__1qlIZYvS0GoH02WVn1DYQXnHFw&s",
+      },
     ],
     backend: [
       {
@@ -258,6 +266,21 @@ export const works: TWork[] = [
       "hooks",
       "react-hot-toast",
       "tailwindcss",
+    ],
+  },
+  {
+    name: "Seo Agency Website",
+    image: "/asset/rankz.png",
+    description: "SEO & Digital Marketing Agency website Template",
+
+    languages: [
+      "Wordpress",
+      "Elementor",
+      "Astra theme",
+      "Wp super Cache",
+      "Wordfence",
+      "Imagify",
+      "siteKit",
     ],
   },
 ];

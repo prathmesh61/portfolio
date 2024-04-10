@@ -19,6 +19,15 @@ const Contact = (props: Props) => {
   const form = useRef<any>();
   const sendEmail = (e: any) => {
     e.preventDefault();
+    if (!form.current || form.current === null) {
+      toast.error("fill all the field.", {
+        duration: 1000,
+        position: "top-center",
+        icon: (
+          <CheckCheck size={15} className="bg-green-500 rounded-full p-1" />
+        ),
+      });
+    }
     try {
       emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY);
       toast.success("Successfully.", {
@@ -33,6 +42,7 @@ const Contact = (props: Props) => {
       console.log(error);
     }
   };
+  console.log(form.current);
 
   return (
     <section
@@ -74,6 +84,7 @@ const Contact = (props: Props) => {
             name="user_name"
             className="w-full  p-4 border-none bg-gray-200  placeholder:text-gray-600 text-gray-900"
             placeholder="your Name"
+            required
           />
 
           <input
@@ -81,13 +92,15 @@ const Contact = (props: Props) => {
             name="user_email"
             className="w-full  p-4 border-none bg-gray-200  placeholder:text-gray-600 text-gray-900"
             placeholder="Your email"
+            required
           />
           <textarea
             rows={3}
             cols={3}
             name="message"
             className="w-full  p-4 border-none bg-gray-200  placeholder:text-gray-900 text-gray-900"
-            placeholder="message "
+            placeholder="message with number"
+            required
           />
           <button
             type="submit"
