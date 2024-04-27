@@ -236,23 +236,6 @@ export const skillList: TSkill[] = [
 
 export const works: TWork[] = [
   {
-    name: "Tax Consulant website",
-    image:
-      "https://res.cloudinary.com/dpvjdarqx/image/upload/v1709202941/oi1yqxpbedlfmt7sqpgd.png",
-    description:
-      "website frontend build using Next.js and styled using Tailwind CSS & form handle by hooks for sending email we use Email.js service.",
-
-    languages: [
-      "nextjs",
-      "react",
-      "typescript",
-      "emailJS",
-      "hooks",
-      "react-hot-toast",
-      "tailwindcss",
-    ],
-  },
-  {
     name: "React Admin Dashboard",
     image:
       "https://res.cloudinary.com/dpvjdarqx/image/upload/v1709202948/gkwvmhcemi3q3man74gd.png",
@@ -269,19 +252,35 @@ export const works: TWork[] = [
     ],
   },
   {
-    name: "Seo Agency Website",
-    image:
-      "https://res.cloudinary.com/dpvjdarqx/image/upload/v1712736918/ht44plidwmeqrndulrix.png",
-    description: "SEO & Digital Marketing Agency website Template",
+    name: "Course Landing Page",
+    image: "https://utfs.io/f/c3b72288-f012-4881-8fd5-d752c78f65f0-a4plqm.png",
+    description:
+      "Single page course website client selling his own course about instagram",
 
     languages: [
-      "Wordpress",
-      "Elementor",
-      "Astra theme",
-      "Wp super Cache",
-      "Wordfence",
-      "Imagify",
-      "siteKit",
+      "nextjs",
+      "typescript",
+      "shadcn UI",
+      "react-hot-toast",
+      "tailwindcss",
+      "UploadingThing CDN",
+    ],
+  },
+  {
+    name: "Tax Consulant website",
+    image:
+      "https://res.cloudinary.com/dpvjdarqx/image/upload/v1709202941/oi1yqxpbedlfmt7sqpgd.png",
+    description:
+      "website frontend build using Next.js and styled using Tailwind CSS & form handle by hooks for sending email we use Email.js service.",
+
+    languages: [
+      "nextjs",
+      "react",
+      "typescript",
+      "emailJS",
+      "hooks",
+      "react-hot-toast",
+      "tailwindcss",
     ],
   },
 ];
